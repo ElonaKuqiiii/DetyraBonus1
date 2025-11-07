@@ -13,6 +13,12 @@ export default function Index() {
       <Text style={{ fontSize: 24, fontWeight: "bold" }}>
         Expo Router po funksionon! ✅
       </Text>
+       <Text style={{ fontSize: 24, fontWeight: "bold" }}>
+        Expo Router po funksionon! ✅
+      </Text>
+       <Text style={{ fontSize: 24, fontWeight: "bold" }}>
+        Expo Router po funksionon! ✅
+      </Text>
     </View>
   );
 }
