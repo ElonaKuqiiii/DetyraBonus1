@@ -72,7 +72,7 @@ export default function Register() {
   const HandleGoogleLogin = async () => {
     try {
       await signInWithPopup(auth, googleProvider);
-      console.log("Google login success");
+   router.push("/userexists");
     } catch (error) {
       console.log(error.code);
     }
