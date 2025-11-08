@@ -34,7 +34,6 @@ export default function Register() {
   return;
 }
 
-
     try {
       await createUserWithEmailAndPassword(auth, email, password);
       alert("User created successfully!");
