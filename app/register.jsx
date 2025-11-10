@@ -5,12 +5,15 @@ import {
   createUserWithEmailAndPassword,
   getAuth
 } from "firebase/auth";
+
+import { app } from "../../firebase";
+
 import { useRouter } from "expo-router";
 
 const router = useRouter();
 
 import { useState } from "react";
-import { app } from "../firebase";
+
 
 export default function Register() {
   const auth = getAuth(app);
